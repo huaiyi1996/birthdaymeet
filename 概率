@@ -1,0 +1,7 @@
+def p(n):
+    x = 1
+    for i in range(n):
+        x = x*(365-i)/365.0
+    return 1 - x
+
+print (p(27))
